@@ -4,6 +4,12 @@ using namespace std;
 
 int main()
 {
-	cout << "Abama fail";
+	char name[32]{};
+
+	cout << "your name is\n";
+	cin >> name;
+
+
+	cout << "hi " << name << "!!!";
 
 return 0;}
